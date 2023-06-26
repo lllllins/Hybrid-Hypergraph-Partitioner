@@ -32,3 +32,5 @@ Each program needs an option to set the number of partitions(default k = 64).
 ```
 Also can modify the run.sh for partitions.
 Make sure each subgraph is ready.
+
+Due to github limitations, we shared the experimental dataset through [this](https://drive.google.com/drive/folders/1DmRHmbJyh5Ybtnha46MGRdijXCoeRjto?usp=drive_link) (anonymization).
