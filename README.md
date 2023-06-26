@@ -12,7 +12,7 @@ Boost
 │ ├── HHP_online             //online part in HHP
 │ ├── HHP_offLine.graph      //subgraph for offline
 │ ├── HHP_onLine.graph       //subgraph for online
-│ ├── offLine_information    //Stateful info for online part
+│ ├── offLine_information    //Stateful info for online part(generate after offline part)
 │ └── HHP_Partition_Result   //HHP result(Each two rows represent the vertices and edges in a partition)
 ```
 Hypgergraph format
