@@ -1,2 +1,24 @@
 # Hybrid-Hypergraph-Partitioner
-A Hybrid Partitioner for Large-scale Hypergraph
+HHP: A Hybrid Partitioner for Large-scale Hypergraph
+Due to blind review requirements, we are currently providing executable files for the program.
+# Environment requirements
+C++17
+Boost
+# File Structure
+```tree
+.
+├── HHP
+│ ├── HHP_offline            //offline part in HHP
+│ ├── HHP_online             //online part in HHP
+│ ├── HHP_offLine.graph      //subgraph for offline
+│ ├── HHP_onLine.graph       //subgraph for online
+│ ├── offLine_information    //Stateful info for online part
+│ └── HHP_Partition_Result   //HHP result(Each two rows represent the vertices and edges in a partition)
+```
+Hypgergraph format
+we use the neighbor matrix format.
+```
+v1 : e1
+v2 : e1, e2, e3, e4
+v3 : e1, e4
+```
