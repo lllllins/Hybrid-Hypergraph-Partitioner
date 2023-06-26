@@ -22,3 +22,11 @@ v1 : e1
 v2 : e1, e2, e3, e4
 v3 : e1, e4
 ```
+# How to run
+Each program needs an option to set the number of partitions(default k = 64).
+```
+./HHP_offline -k 128
+./HHP_online -k 128
+```
+Also can modify the run.sh for partitions.
+Make sure each subgraph is ready.
