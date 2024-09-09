@@ -1,7 +1,6 @@
 # Hybrid-Hypergraph-Partitioner
 HHP: A Hybrid Partitioner for Large-scale Hypergraph
 
-Due to blind review requirements, we are currently providing executable files for the program.
 # Environment requirements
 C++17
 
